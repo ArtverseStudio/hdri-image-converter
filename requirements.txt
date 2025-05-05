@@ -1,0 +1,10 @@
+opencv-python>=4.8.0
+numpy>=1.24.0
+opencv-contrib-python>=4.8.0  # For advanced features like xphoto
+tqdm>=4.65.0  # For progress bars
+pillow>=10.0.0  # For additional image format support
+imageio
+
+# For EXR output support, you may also need:
+# pip install imageio[exr]  # For basic EXR writing (Windows: limited)
+# pip install OpenImageIO   # For robust EXR support (if needed)
